@@ -78,15 +78,15 @@ private:
    */
   /**@{*/
   /** Default constructor */
-  SimulationSingleton<T> (void);
+  SimulationSingleton (void);
 
   /** Copy constructor. */
-  SimulationSingleton<T> (const SimulationSingleton<T> &);
+  SimulationSingleton (const SimulationSingleton<T> &);
   /**
    * Assignment.
    * \returns The Singleton.
    */
-  SimulationSingleton<T> operator = (const SimulationSingleton<T> &);
+  SimulationSingleton operator = (const SimulationSingleton<T> &);
   /**@}*/
 
 };

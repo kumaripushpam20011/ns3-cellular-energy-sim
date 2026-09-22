@@ -41,3 +41,18 @@ build/
 /.cproject
 /.project
 .vscode/settings.json
+# Ignore Python virtual environments
+ns3-venv/
+*.venv/
+venv/
+
+# Ignore generated datasets, logs, and plots
+*.csv
+*.png
+*.txt
+*.pcap
+*.tr
+
+# Ignore build artifacts
+build/
+*.o
